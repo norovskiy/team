@@ -5,25 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muslim</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="./src/fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css">
 </head>
 <body class="max-w-[1400px] m-auto p-5">
 
     <header>
-        <nav class="flex">
-            <img src="./src/img/logo (1).svg" alt="">
-            <div class="flex justify-between">
-                <p>Направления</p>
+        <nav class="flex items-center justify-between">
+            <img src="./img/logo (1).svg" alt="">
+            <div class="flex font-bold gap-10">
+                <div class="flex items-center gap-3">
+
+                    <p>Направления</p>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
                 <p>Услуги</p>
                 <p>Врачи</p>
                 <p>Отзывы</p>
                 <p>Акции</p>
-                <p>О центре</p>
+                <div class="flex items-center gap-3">
+
+                    <p>О центре</p>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
                 <p>Детство</p>
                 <p>Контакты</p>
             </div>
-            <button>Личный кабинет</button>
+            <button class="bg-[#E3EFF5] text-[#00578A] py-3 px-8 rounded-lg">Личный кабинет</button>
         </nav>
+
+        <section class="flex flex-col gap-10 my-[70px]">
+            <h1 class="font-bold text-5xl">Контакты</h1>
+            <h2 class="text-[#00578A] text-3xl">Медицинский центр (взрослое отделение)</h2>
+            <article class="flex justify-between">
+                <div class="flex flex-col gap-1">
+                    <p class="text-lg">Телефон:</p>
+                    <h3 class="font-bold text-xl">8 (495) 926-06-03</h3>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-lg">E-mail:</p>
+                    <h3 class="font-bold text-xl">info@gormedcentre.ru</h3>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-lg">Адрес:</p>
+                    <h3 class="font-bold text-xl">г. Мытищи, ул.Рождественская, д.7</h3>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-lg">Режим работы:</p>
+                    <h3 class="font-bold text-xl">ежедневно с 9.00 до 21.00</h3>
+                </div>
+            </article>
+
+            <img src="./img/map.png" alt="">
+        </section>
     </header>
     
 </body>
